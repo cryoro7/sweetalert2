@@ -169,6 +169,7 @@ div:where(.swal2-container) {
     width: $swal2-actions-width;
     margin: $swal2-actions-margin;
     padding: $swal2-actions-padding;
+    width: 100%;
 
     &:not(.swal2-loading) {
       .swal2-styled {
@@ -220,6 +221,7 @@ div:where(.swal2-container) {
       background-color: $swal2-confirm-button-background-color;
       color: $swal2-confirm-button-color;
       font-size: $swal2-confirm-button-font-size;
+      width: 15%;
 
       &:focus {
         box-shadow: $swal2-confirm-button-focus-box-shadow;
